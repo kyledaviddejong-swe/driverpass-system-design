@@ -36,7 +36,7 @@ Customers need self-service access to packages, materials, tests and reservation
 | Let assigned drivers record lesson comments | Lesson-comments activity; `LessonRecord` class |
 | Restrict access by role and record relevant actions | `UserAccount`, `AccessRole`, `AccessPermission` and `AuditEntry` classes |
 
-These examples show how the artifacts relate. They are not a claim of complete traceability or implementation verification.
+These examples connect the requirements to the relevant design artifacts.
 
 ## Design scope
 
@@ -50,8 +50,6 @@ My general approach to software design is to start with the base human reality f
 
 The pieces need to be checked against each other constantly. A requirement that never appears in the design, or a design feature that was never actually asked for, is the kind of small mismatch that can quietly become everyone's problem later.
 
-## Background and portfolio preparation
+## Background
 
-Completed for SNHU CS-255 using a supplied fictional business scenario and document templates. The named stakeholders and schedule personnel belong to that scenario, not a paid client engagement or a team I managed.
-
-The portfolio edition preserves the substantive requirements and original diagram images, removes template titles and branding, and adds direct artifact links and context. AI assistance was used for this portfolio cleanup, document formatting and presentation review. The original school submissions remain separate.
+An undergraduate design project based on a supplied fictional business scenario. The stakeholders and schedule personnel belong to that scenario. See [credits and acknowledgments](CREDITS.md).
