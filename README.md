@@ -46,7 +46,7 @@ Response times, concurrent-session capacity, password handling and access contro
 
 ## Approach and reflection
 
-My general approach to software design is to start with the base human reality first. Who will be using it, what their goals are, and what has to happen to casually connect A and B. From there, the rest sifts out. Users imply actions, actions imply data, data implies rules, and rules imply all the awkward limitations and security concerns that have to be dealt with before anyone writes code.
+My general approach to software design is to start with the base human reality first. Who will be using it, what their goals are, and what has to happen to causally connect A and B. From there, the rest sifts out. Users imply actions, actions imply data, data implies rules, and rules imply all the awkward limitations and security concerns that have to be dealt with before anyone writes code.
 
 The pieces need to be checked against each other constantly. A requirement that never appears in the design, or a design feature that was never actually asked for, is the kind of small mismatch that can quietly become everyone's problem later.
 
